@@ -1,0 +1,76 @@
+/* Import Bootstrap =========================
+=============================================*/
+@import url("bootstrap.min.css");
+/* =========================================
+============================================ */
+html {
+    font-size:20px;
+
+    background-color:#ccc;
+    
+}
+
+main {
+    background-color: #ffffff;
+    
+    position: relative;
+    top:0.6rem;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+font-face {
+    font-family: 'Righteous';
+    src: url(fonts/Righteous-Regular.ttf) format('ttf');
+}
+
+/* NAVBAR==================================== 
+=============================================*/
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand {
+    margin-left:10% !important;
+}
+
+.nav-link {
+    font-size: 0.9rem;
+}
+
+/* MAIN==================================== 
+=============================================*/
+.Header-main {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    font-style:italic;
+    font-weight: 600;
+
+    line-height: 2.2rem;
+    margin-bottom: 0.4rem;
+}
+
+.Text-main {
+    font-size:0.9rem;
+}
+
+.Text-main-italic {
+    font-style: italic;
+
+
+}
+
+/* MEDIA==================================== 
+=============================================*/
+
+@media screen and (max-width: 920px) {
+    #picture {
+        display: none;
+    }
+}
+
+
+
+
+
